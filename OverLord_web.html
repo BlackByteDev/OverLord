@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>OverLord</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  ?? OVERLORD FORUM
+</header>
+
+<div class="container">
+
+<div id="left">
+
+<h3>Konu Aç</h3>
+
+<input id="title" placeholder="Baþlýk">
+<input id="text" placeholder="Yazý">
+<button onclick="addPost()">Gönder</button>
+
+<h3>Forum</h3>
+<div id="posts"></div>
+
+</div>
+
+<div id="right">
+
+<h3>Kullanýcý</h3>
+
+<input id="email" placeholder="Email">
+<input id="pass" type="password" placeholder="Þifre">
+
+<button onclick="register()">Kayýt</button>
+<button onclick="login()">Giriþ</button>
+
+<p id="user"></p>
+
+</div>
+
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
